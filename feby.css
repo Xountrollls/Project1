@@ -1,0 +1,40 @@
+body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background: url('My Pace Mv - Stray Kids.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .video-container {
+            position: relative;
+            width: 400px;
+            height: 225px;
+            margin-top: 20px;
+        }
+        .cover-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            z-index: 2;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        h1, p {
+            background: rgba(0,0,0,0.4);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
